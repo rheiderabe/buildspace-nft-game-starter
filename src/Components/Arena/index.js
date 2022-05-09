@@ -94,7 +94,6 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
 
   return (
     <div className="arena-container">
-      {/* Replace your Boss UI with this */}
       {boss && (
         <div className="boss-container">
           <div className={`boss-content ${attackState}`}>
